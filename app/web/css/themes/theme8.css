@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2'), url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcgFhaRv2pGgT5Kf0An0s4MM.woff) format('woff');
+}
+
+#pjWrapper,
+body { background: #413f40; color: #fff;  }
+
+#pjWrapper .form-control,
+body #pjWrapper { color: #fff; font-family: 'Montserrat', sans-serif!important; }
+
+#pjWrapper .btn-primary { background-color: #0f0d0e; border-color: #000; color: #f2f3ee; text-transform: uppercase; font-weight: bold;  }
+
+#pjWrapper .btn-primary:active,
+#pjWrapper .btn-primary:focus,
+#pjWrapper .btn-primary:active:hover,
+#pjWrapper .btn-primary:active:focus,
+#pjWrapper .btn-primary:hover { border-color: #000; color: #f2f3ee; background-color: #2a2829;}
+
+.pj-calendar-head,
+.pj-calendar-form,
+.pj-calendar-footer,
+#pjWrapper .panel-primary .panel-footer,
+#pjWrapper .panel-heading,
+.pj-calendar-booking-summary,
+#pjWrapper .tooltip-view-table li:first-child,
+.pj-calendar-tooltip,
+.pj-calendar-cell,
+.pj-calendar-views { background-color: #595758; }
+
+#pjWrapper .panel-heading, 
+#pjWrapper .panel-footer, 
+#pjWrapper .panel-form, 
+.pj-calendar,
+.pj-calendar-head,
+.pj-calendar-form,
+.pj-calendar-views,
+.pj-calendar-footer,
+.tooltip-view-table li + li,
+.pj-calendar-booking-summary,
+.pj-calendar-tooltip-view-head,
+#pjWrapper .form-control,
+#pjWrapper .panel-body .tooltip-view-table,
+#pjWrapper .panel-primary { border-color: #000; }
+
+.pj-calendar-body,
+.pj-calendar-day,
+.pj-calendar-tooltip-view-head,
+.pj-calendar-view-body,
+#pjWrapper .panel-body,
+#pjWrapper .form-control,
+.pj-calendar-cell:nth-child(2n+1),
+.pj-calendar-actions { background-color: #333; }
+
+.pj-calendar-day,
+.pj-calendar-footer p,
+#pjWrapper .panel-heading,
+.pj-calendar-form .control-label,
+.pj-calendar-booking-summary span,
+.pj-calendar-tooltip-view .pj-calendar-footer p,
+.pj-calendar-tooltip-view .pj-calendar-footer p:hover { color: #000; }
+
+.tooltip-view-table li,
+.tooltip-view-table strong,
+.pj-calendar-tooltip li,
+#pjWrapper .tsServiceLink,
+.pj-calendar-d { color: #fff; }

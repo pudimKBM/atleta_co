@@ -1,0 +1,14 @@
+#pjWrapper .btn-primary { color: #fff; background-color: #9acf5b; border-color: #76a73e; }
+
+#pjWrapper .btn-primary:active,
+#pjWrapper .btn-primary:focus,
+#pjWrapper .btn-primary:active:hover,
+#pjWrapper .btn-primary:active:focus,
+#pjWrapper .btn-primary:hover { color: #fff; background-color: #76a73e; border-color: #76a73e;}
+
+.pj-calendar-booking-summary strong,
+#pjWrapper .panel-heading,
+.pj-calendar-d,
+.pj-calendar-head p,
+#pjWrapper .tsServiceLink,
+.pj-calendar-ym { color: #5eb06e; }

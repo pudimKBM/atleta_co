@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wpr4-67659ICLY8bMrYhtePPA.woff2) format('woff2'), url(http://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(http://fonts.gstatic.com/s/titilliumweb/v4/7XUFZ5tgS-tD6QamInJTcZSnX671uNZIV63UdXh3Mg0.woff2) format('woff2'), url(http://fonts.gstatic.com/s/titilliumweb/v4/7XUFZ5tgS-tD6QamInJTcdGU7DQ8I6RFMlK0vgclk7w.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Titillium WebSemiBold'), local('TitilliumWeb-SemiBold'), url(http://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wpr46gJz9aNFrmnwBdd69aqzY.woff2) format('woff2'), url(http://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wprx7IBmrqA5IG9z8WNe77b9o.woff) format('woff');
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Titillium WebBold'), local('TitilliumWeb-Bold'), url(http://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wprxP6Eu1_xfSBSoi9uie1FdE.woff2) format('woff2'), url(http://fonts.gstatic.com/s/titilliumweb/v4/anMUvcNT0H1YN4FII8wpr0bathaSTBR2c4i13_wzlb0.woff) format('woff');
+}
+
+#pjWrapper { font-family: 'Titillium Web', sans-serif;}
+
+#pjWrapper .btn-primary { 
+	border-color: #073163; 
+	color: #fff; 
+	text-transform: uppercase; 
+	background: rgb(25,70,127);
+	background: -moz-linear-gradient(top,  rgba(25,70,127,1) 0%, rgba(25,71,123,1) 3%, rgba(24,69,126,1) 5%, rgba(23,68,125,1) 13%, rgba(20,66,118,1) 37%, rgba(17,58,110,1) 66%, rgba(13,55,105,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(25,70,127,1)), color-stop(3%,rgba(25,71,123,1)), color-stop(5%,rgba(24,69,126,1)), color-stop(13%,rgba(23,68,125,1)), color-stop(37%,rgba(20,66,118,1)), color-stop(66%,rgba(17,58,110,1)), color-stop(100%,rgba(13,55,105,1)));
+	background: -webkit-linear-gradient(top,  rgba(25,70,127,1) 0%,rgba(25,71,123,1) 3%,rgba(24,69,126,1) 5%,rgba(23,68,125,1) 13%,rgba(20,66,118,1) 37%,rgba(17,58,110,1) 66%,rgba(13,55,105,1) 100%);
+	background: -o-linear-gradient(top,  rgba(25,70,127,1) 0%,rgba(25,71,123,1) 3%,rgba(24,69,126,1) 5%,rgba(23,68,125,1) 13%,rgba(20,66,118,1) 37%,rgba(17,58,110,1) 66%,rgba(13,55,105,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(25,70,127,1) 0%,rgba(25,71,123,1) 3%,rgba(24,69,126,1) 5%,rgba(23,68,125,1) 13%,rgba(20,66,118,1) 37%,rgba(17,58,110,1) 66%,rgba(13,55,105,1) 100%);
+	background: linear-gradient(to bottom,  rgba(25,70,127,1) 0%,rgba(25,71,123,1) 3%,rgba(24,69,126,1) 5%,rgba(23,68,125,1) 13%,rgba(20,66,118,1) 37%,rgba(17,58,110,1) 66%,rgba(13,55,105,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#19467f', endColorstr='#0d3769',GradientType=0 );
+}
+
+#pjWrapper .btn-primary:active,
+#pjWrapper .btn-primary:focus,
+#pjWrapper .btn-primary:active:hover,
+#pjWrapper .btn-primary:active:focus,
+#pjWrapper .btn-primary:hover {
+	border-color: #073163; 
+	color: #fff; 
+	background: rgb(13,55,105);
+	background: -moz-linear-gradient(top,  rgba(13,55,105,1) 0%, rgba(17,58,110,1) 34%, rgba(20,66,118,1) 63%, rgba(23,68,125,1) 87%, rgba(24,69,126,1) 95%, rgba(25,71,123,1) 97%, rgba(25,70,127,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(13,55,105,1)), color-stop(34%,rgba(17,58,110,1)), color-stop(63%,rgba(20,66,118,1)), color-stop(87%,rgba(23,68,125,1)), color-stop(95%,rgba(24,69,126,1)), color-stop(97%,rgba(25,71,123,1)), color-stop(100%,rgba(25,70,127,1)));
+	background: -webkit-linear-gradient(top,  rgba(13,55,105,1) 0%,rgba(17,58,110,1) 34%,rgba(20,66,118,1) 63%,rgba(23,68,125,1) 87%,rgba(24,69,126,1) 95%,rgba(25,71,123,1) 97%,rgba(25,70,127,1) 100%);
+	background: -o-linear-gradient(top,  rgba(13,55,105,1) 0%,rgba(17,58,110,1) 34%,rgba(20,66,118,1) 63%,rgba(23,68,125,1) 87%,rgba(24,69,126,1) 95%,rgba(25,71,123,1) 97%,rgba(25,70,127,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(13,55,105,1) 0%,rgba(17,58,110,1) 34%,rgba(20,66,118,1) 63%,rgba(23,68,125,1) 87%,rgba(24,69,126,1) 95%,rgba(25,71,123,1) 97%,rgba(25,70,127,1) 100%);
+	background: linear-gradient(to bottom,  rgba(13,55,105,1) 0%,rgba(17,58,110,1) 34%,rgba(20,66,118,1) 63%,rgba(23,68,125,1) 87%,rgba(24,69,126,1) 95%,rgba(25,71,123,1) 97%,rgba(25,70,127,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0d3769', endColorstr='#19467f',GradientType=0 );
+}
+
+.pj-calendar-head,
+.pj-calendar-cell:nth-child(2n+1),
+.pj-calendar-form,
+.pj-calendar-footer,
+#pjWrapper .panel-primary .panel-footer,
+#pjWrapper .panel-heading,
+.pj-calendar-booking-summary,
+#pjWrapper .tooltip-view-table li:first-child,
+.pj-calendar-views { background: #edf0f5; }
+
+#pjWrapper .panel-heading,
+.pj-calendar-tooltip-view-head,
+#pjWrapper .tsServiceLink,
+.pj-calendar-ym { color: #c32816; }
+
+.pj-calendar-booking-summary strong { color: #134175; }

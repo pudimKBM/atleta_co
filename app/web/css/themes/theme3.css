@@ -1,0 +1,11 @@
+#pjWrapper .btn-primary { color: #fff; background-color: #1ca76c; border-color: #12965c; }
+
+#pjWrapper .btn-primary:active,
+#pjWrapper .btn-primary:focus,
+#pjWrapper .btn-primary:active:hover,
+#pjWrapper .btn-primary:active:focus,
+#pjWrapper .btn-primary:hover { color: #fff; background-color: #12965c; border-color: #12965c;}
+
+.pj-calendar-ym,
+#pjWrapper .tsServiceLink,
+#pjWrapper .panel-heading { color: #1ca76c; }  

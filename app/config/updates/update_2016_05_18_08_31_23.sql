@@ -1,0 +1,7 @@
+
+START TRANSACTION;
+
+SET @id := (SELECT `id` FROM `fields` WHERE `key` = "error_bodies_ARRAY_AO25");
+UPDATE `multi_lang` SET `content` = 'Email notifications will be sent to people who make a reservation after reservation form is completed or/and payment is made. Suppored tokens to be used in the email are:<br /><br /><table style="width:100%"><tr><td style="width:50%">{Name} - The customer''s name;</td><td>{CCType} - The provided CC type;</td></tr><tr><td>{Email} - The customer''s e-mail;</td><td>{CCNum} - The provided CC number;</td></tr><tr><td>{Phone} - The customer''s phone number;</td><td>{CCExpMonth} - The provided CC exp.month;</td></tr><tr><td>{Notes} - Any additional notes;</td><td>{CCExpYear} - The provided CC exp.year;</td></tr><tr><td>{Country} - The provided country;</td><td>{CCSec} - The provided CC sec. code;</td></tr><tr><td>{State} - The provided state;</td><td>{PaymentMethod} - The payment method;</td></tr><tr><td>{City} - The provided city;</td><td>{Deposit} - Deposit;</td></tr><tr><td>{Zip} - The provided zip code;</td><td>{Tax} - Tax;</td></tr><tr><td>{Address1} - The provided address 1;</td><td>{Total} - Total amount;</td></tr><tr><td>{Address2} - The provided address 2;</td><td>{Price} - Price;</td></tr><tr><td>{CalendarName} - Calendar name</td><td>{BookingID} - Booking''s ID;</td></tr><tr><td></td><td>{Timeslots} - Booking''s timeslots</td></tr><tr><td></td><td>{CancelURL} - Cancel link for the booking</td></tr></table>' WHERE `foreign_id` = @id AND `model` = "pjField" AND `field` = "title";
+
+COMMIT;

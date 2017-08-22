@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(http://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciPk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(http://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Droid Sans Bold'), local('DroidSans-Bold'), url(http://fonts.gstatic.com/s/droidsans/v6/EFpQQyG9GqCrobXxL-KRMYWiMMZ7xLd792ULpGE4W_Y.woff2) format('woff2'), url(http://fonts.gstatic.com/s/droidsans/v6/EFpQQyG9GqCrobXxL-KRMQFhaRv2pGgT5Kf0An0s4MM.woff) format('woff');
+}
+
+body { background: #1a1004; }
+
+#pjWrapper .form-control,
+body #pjWrapper { background: #1a1004; color: #fff;  font-family: 'Droid Sans', sans-serif!important; }
+
+#pjWrapper .btn-primary { background: #f65a1f none repeat scroll 0 0; border-color: #f65a1f; color: #fff; text-transform: uppercase; }
+
+#pjWrapper .btn-primary:active,
+#pjWrapper .btn-primary:focus,
+#pjWrapper .btn-primary:active:hover,
+#pjWrapper .btn-primary:active:focus,
+#pjWrapper .btn-primary:hover { background: #d64e1a none repeat scroll 0 0; border-color: #d64e1a; color: #f2f3ee;}
+
+.pj-calendar-head,
+.pj-calendar-form,
+.pj-calendar-footer,
+#pjWrapper .panel-primary .panel-footer,
+#pjWrapper .panel-heading,
+.pj-calendar-booking-summary,
+#pjWrapper .tooltip-view-table li:first-child,
+.pj-calendar-tooltip,
+.pj-calendar-cell,
+.pj-calendar-views { background-color: #2b1b02; }
+
+#pjWrapper .panel-heading, 
+#pjWrapper .panel-footer, 
+#pjWrapper .panel-form, 
+.pj-calendar,
+.pj-calendar-head,
+.pj-calendar-form,
+.pj-calendar-views,
+.pj-calendar-footer,
+.tooltip-view-table li + li,
+.pj-calendar-booking-summary,
+.pj-calendar-tooltip-view-head,
+#pjWrapper .form-control,
+#pjWrapper .panel-body .tooltip-view-table,
+#pjWrapper .panel-primary { border-color: #1d1201; }
+
+.pj-calendar-body,
+.pj-calendar-day,
+.pj-calendar-tooltip-view-head,
+.pj-calendar-view-body,
+#pjWrapper .panel-body,
+#pjWrapper .form-control,
+.pj-calendar-cell:nth-child(2n+1),
+.pj-calendar-actions { background-color: #5d3a04; }
+
+#pjWrapper .tsServiceLink,
+.pj-calendar-tooltip-view-head,
+.pj-calendar-actions,
+.pj-calendar-footer p,
+#pjWrapper .panel-heading,
+.pj-calendar-form .control-label,
+.pj-calendar-booking-summary span,
+.pj-calendar-tooltip-view .pj-calendar-footer p,
+.pj-calendar-tooltip-view .pj-calendar-footer p:hover { color: #ffd35c; }
+
+.pj-calendar-booking-summary strong { color: #f65a1f; }
+
+.pj-calendar-day { color: #2b1b02; }
+
+.tooltip-view-table li,
+.tooltip-view-table strong,
+.pj-calendar-tooltip li { color: #fff; }
+
+
+.pj-calendar-day p { background: #7c500a; color: #ffd35c;}
+
+.pj-calendar-day-today p { background: #ffdb99; color: #2b1b02; }
+
+.pj-calendar-day-selected p { background: #12965d; }   
+
+.pj-calendar-day-inactive p:hover, 
+.pj-calendar-day-inactive p { background: #d21e1d; color: #2b1b02;}
+
+.pj-calendar-day-past p:hover, 
+.pj-calendar-day-past p { background: #715d3f; color: #2b1b02; }
+
+.pj-calendar-day-disabled p:hover, 
+.pj-calendar-day-disabled p { background: #5f4d30; }

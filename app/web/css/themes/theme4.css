@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url(http://fonts.gstatic.com/s/ubuntu/v7/_aijTyevf54tkVDLy-dlnFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/ubuntu/v7/_aijTyevf54tkVDLy-dlnD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu'), url(http://fonts.gstatic.com/s/ubuntu/v7/sDGTilo5QRsfWu6Yc11AXg.woff2) format('woff2'), url(http://fonts.gstatic.com/s/ubuntu/v7/_xyN3apAT_yRRDeqB3sPRg.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url(http://fonts.gstatic.com/s/ubuntu/v7/OsJ2DjdpjqFRVUSto6IffFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/ubuntu/v7/OsJ2DjdpjqFRVUSto6IffD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Ubuntu Bold'), local('Ubuntu-Bold'), url(http://fonts.gstatic.com/s/ubuntu/v7/0ihfXUL2emPh0ROJezvraFtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(http://fonts.gstatic.com/s/ubuntu/v7/0ihfXUL2emPh0ROJezvraD8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+#pjWrapper .form-control,
+body #pjWrapper { font-family: 'Ubuntu', sans-serif; }
+
+#pjWrapper .btn-primary { background-color: #d66e3b; border-color: #bd5726; }
+
+#pjWrapper .btn-primary:active,
+#pjWrapper .btn-primary:focus,
+#pjWrapper .btn-primary:active:hover,
+#pjWrapper .btn-primary:active:focus,
+#pjWrapper .btn-primary:hover { background-color: #bd5726; border-color: #bd5726; }
+
+.pj-calendar-footer p,
+#pjWrapper .panel-heading,
+.pj-calendar-d,
+.pj-calendar-head p,
+.tooltip-view-table strong,
+.pj-calendar-booking-summary span,
+.pj-calendar-tooltip-view .pj-calendar-footer p:hover, 
+.pj-calendar-tooltip-view .pj-calendar-footer p,
+#pjWrapper .tsServiceLink,
+.pj-calendar-ym { color: #756556; }
+
+.pj-calendar-head,
+.pj-calendar-form,
+.pj-calendar-footer,
+#pjWrapper .panel-primary .panel-footer,
+#pjWrapper .panel-heading,
+.pj-calendar-booking-summary,
+#pjWrapper .tooltip-view-table li:first-child,
+.pj-calendar-views { background-color: #f1ede4; }
+
+.pj-calendar-booking-summary strong { color: #d66e3b; }
